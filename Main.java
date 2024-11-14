@@ -412,6 +412,7 @@ MRT Taft - EDSA(LRT1)
         frmLrt1.setVisible(true);
         currentFrame = "lrt1";
         comboBoxIndexChanged();
+        tranferBtnStatus();
     }
     public static void btnLrt2Pressed(){
         refreshVariables();
@@ -419,6 +420,7 @@ MRT Taft - EDSA(LRT1)
         frmLrt2.setVisible(true);
         currentFrame = "lrt2";
         comboBoxIndexChanged();
+        tranferBtnStatus();
     }
     public static void btnMrtPressed(){
         refreshVariables();
@@ -426,6 +428,7 @@ MRT Taft - EDSA(LRT1)
         frmMrt.setVisible(true);
         currentFrame = "mrt";
         comboBoxIndexChanged();
+        tranferBtnStatus();
     }
     
         // Method to show the MainMenu frame
